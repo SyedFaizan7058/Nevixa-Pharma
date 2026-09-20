@@ -1,0 +1,259 @@
+/* ============================================================
+           NEVIXA FAQ PAGE — supplemental styles (scoped, nvx- prefixed)
+           Sits alongside style.css / faq.css; only styles the new
+           content sections — navbar-container, footer-container and
+           whatsapp-circle-container keep using whatever style.css
+           already defines for them.
+        ============================================================ */
+:root {
+    --nvx-navy: #0B2545;
+    --nvx-navy-deep: #071A33;
+    --nvx-teal: #0F8B8D;
+    --nvx-teal-light: #E4F3F2;
+    --nvx-ice: #F5F8FA;
+    --nvx-ink: #101820;
+    --nvx-muted: #5B6673;
+    --nvx-line: #E2E8ED;
+    --nvx-font-display: 'Fraunces', serif;
+    --nvx-font-body: 'Inter', sans-serif;
+    --nvx-font-mono: 'JetBrains Mono', monospace;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.nvx-section {
+    font-family: var(--nvx-font-body);
+    color: var(--nvx-ink);
+}
+
+.nvx-section h1,
+.nvx-section h2,
+.nvx-section h3 {
+    font-family: var(--nvx-font-display);
+}
+
+.nvx-eyebrow {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--nvx-teal);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--nvx-teal);
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    background: var(--nvx-teal-light);
+}
+
+/* ---------- Breadcrumb ---------- */
+.nvx-breadcrumb {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 1.25rem;
+}
+
+.nvx-breadcrumb a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+}
+
+.nvx-breadcrumb a:hover {
+    color: #fff;
+}
+
+.nvx-breadcrumb i {
+    font-size: 0.62rem;
+    margin: 0 0.5rem;
+}
+
+/* ---------- Intro ---------- */
+.nvx-intro {
+    position: relative;
+    background: var(--nvx-navy-deep);
+    overflow: hidden;
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.10) 1.5px, transparent 0);
+    background-size: 26px 26px;
+    padding: 4.5rem 0 4rem;
+}
+
+.nvx-intro::after {
+    content: "";
+    position: absolute;
+    left: -100px;
+    bottom: -140px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(15, 139, 141, 0.32), transparent 70%);
+}
+
+.nvx-intro-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+}
+
+.nvx-intro h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: clamp(2rem, 3.6vw, 2.9rem);
+    line-height: 1.15;
+    margin: 1.1rem 0 1.1rem;
+}
+
+.nvx-intro h1 em {
+    color: var(--nvx-teal);
+    font-style: normal;
+}
+
+.nvx-intro p {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0;
+}
+
+/* ---------- Section head ---------- */
+.nvx-section-head {
+    max-width: 660px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.nvx-section-head h2 {
+    font-weight: 600;
+    color: var(--nvx-navy);
+    font-size: clamp(1.7rem, 3vw, 2.35rem);
+    margin: 0.9rem 0 0.85rem;
+}
+
+.nvx-section-head p {
+    color: var(--nvx-muted);
+    font-size: 1.02rem;
+    line-height: 1.65;
+}
+
+/* ---------- FAQ layout ---------- */
+.nvx-faq-section {
+    padding: 5.5rem 0 4.5rem;
+    background: #fff;
+}
+
+.nvx-faq-category {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--nvx-teal);
+    margin: 2.5rem 0 1rem;
+}
+
+.nvx-faq-category:first-of-type {
+    margin-top: 0;
+}
+
+.nvx-accordion-item {
+    border: 1px solid var(--nvx-line);
+    border-radius: 12px;
+    margin-bottom: 0.9rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.nvx-accordion-button {
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    border: none;
+    padding: 1.15rem 1.4rem;
+    font-family: var(--nvx-font-body);
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: var(--nvx-navy);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.nvx-accordion-button:hover {
+    color: var(--nvx-teal);
+}
+
+.nvx-accordion-button .nvx-plus {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: 50%;
+    background: var(--nvx-teal-light);
+    color: var(--nvx-teal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease;
+}
+
+.nvx-accordion-button[aria-expanded="true"] .nvx-plus {
+    transform: rotate(45deg);
+}
+
+.nvx-accordion-body {
+    padding: 0 1.4rem 1.25rem;
+    color: var(--nvx-muted);
+    font-size: 0.94rem;
+    line-height: 1.7;
+}
+
+/* ---------- CTA band ---------- */
+.nvx-cta-band {
+    background: var(--nvx-teal);
+    padding: 3.5rem 0;
+}
+
+.nvx-cta-band h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 2.8vw, 2rem);
+    margin-bottom: 0.6rem;
+}
+
+.nvx-cta-band p {
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 1.5rem;
+    max-width: 520px;
+}
+
+.nvx-btn-white {
+    background: #fff;
+    color: var(--nvx-navy);
+    font-weight: 600;
+    padding: 0.85rem 1.6rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.2s ease;
+}
+
+.nvx-btn-white:hover {
+    transform: translateY(-2px);
+    color: var(--nvx-navy);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .nvx-accordion-button .nvx-plus,
+    .nvx-btn-white {
+        transition: none;
+    }
+}

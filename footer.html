@@ -1,0 +1,347 @@
+<style>
+        /* ============================================================
+           NEVIXA FOOTER — premium version (scoped, nvx- prefixed)
+           Uses the same navy/teal design tokens as index.html / about.html
+        ============================================================ */
+        :root {
+            --nvx-navy: #0B2545;
+            --nvx-navy-deep: #071A33;
+            --nvx-teal: #0F8B8D;
+            --nvx-line: rgba(255, 255, 255, 0.12);
+            --nvx-font-display: 'Fraunces', serif;
+            --nvx-font-body: 'Inter', sans-serif;
+            --nvx-font-mono: 'JetBrains Mono', monospace;
+        }
+
+        .nvx-footer {
+            position: relative;
+            background: var(--nvx-navy-deep);
+            background-image:
+                radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.06) 1.5px, transparent 0);
+            background-size: 26px 26px;
+            color: rgba(255, 255, 255, 0.72);
+            font-family: var(--nvx-font-body);
+            overflow: hidden;
+        }
+
+        .nvx-footer::before {
+            content: "";
+            position: absolute;
+            top: -140px;
+            right: -100px;
+            width: 360px;
+            height: 360px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(15, 139, 141, 0.28), transparent 70%);
+            pointer-events: none;
+        }
+
+        .nvx-footer-inner {
+            position: relative;
+            z-index: 1;
+        }
+
+        .nvx-footer-top {
+            padding: 4.5rem 0 3rem;
+            border-bottom: 1px solid var(--nvx-line);
+        }
+
+        .nvx-footer-brand h3 {
+            font-family: var(--nvx-font-display);
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.9rem;
+        }
+
+        .nvx-footer-brand p {
+            font-size: 0.92rem;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.6);
+            max-width: 300px;
+            margin-bottom: 1.5rem;
+        }
+
+        .nvx-eyebrow-mini {
+            font-family: var(--nvx-font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--nvx-teal);
+            display: block;
+            margin-bottom: 1.1rem;
+        }
+
+        .nvx-footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nvx-footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .nvx-footer-links a {
+            color: rgba(255, 255, 255, 0.72);
+            text-decoration: none;
+            font-size: 0.92rem;
+            transition: color 0.2s ease, padding-left 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nvx-footer-links a i {
+            font-size: 0.65rem;
+            color: var(--nvx-teal);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .nvx-footer-links a:hover {
+            color: #fff;
+            padding-left: 4px;
+        }
+
+        .nvx-footer-links a:hover i {
+            opacity: 1;
+        }
+
+        .nvx-contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nvx-contact-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.85rem;
+            margin-bottom: 1.1rem;
+        }
+
+        .nvx-contact-list .nvx-icon-badge {
+            width: 36px;
+            height: 36px;
+            min-width: 36px;
+            border-radius: 9px;
+            background: rgba(15, 139, 141, 0.16);
+            color: var(--nvx-teal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+        }
+
+        .nvx-contact-list a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            font-size: 0.92rem;
+        }
+
+        .nvx-contact-list a:hover {
+            color: var(--nvx-teal);
+        }
+
+        .nvx-contact-list span {
+            display: block;
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .nvx-contact-list small {
+            font-family: var(--nvx-font-mono);
+            font-size: 0.68rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.4);
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+
+        .nvx-socials {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .nvx-socials a {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .nvx-socials a:hover {
+            background: var(--nvx-teal);
+            border-color: var(--nvx-teal);
+            transform: translateY(-3px);
+        }
+
+        .nvx-footer-bottom {
+            padding: 1.5rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem 1.5rem;
+        }
+
+        .nvx-footer-bottom p {
+            margin: 0;
+            font-size: 0.82rem;
+            color: rgba(255, 255, 255, 0.45);
+        }
+
+        .nvx-footer-legal {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+        }
+
+        .nvx-footer-legal a {
+            color: rgba(255, 255, 255, 0.55);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .nvx-footer-legal a:hover {
+            color: var(--nvx-teal);
+        }
+
+        .nvx-footer-legal-divider {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .nvx-footer-tag {
+            font-family: var(--nvx-font-mono);
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.45);
+        }
+
+        @media (max-width: 767px) {
+            .nvx-footer-top {
+                text-align: left;
+            }
+
+            .nvx-footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            .nvx-socials a,
+            .nvx-footer-links a {
+                transition: none;
+            }
+        }
+    </style>
+
+    <footer class="nvx-footer">
+            <div class="container nvx-footer-inner">
+
+                <div class="row g-5 nvx-footer-top">
+
+                    <!-- Brand + socials -->
+                    <div class="col-lg-4 col-md-6 nvx-footer-brand">
+                        <h3>Nevixa Pharma</h3>
+                        <p>
+                            Pharmaceutical formulations across Derma, Cosmo, Pedia and General
+                            care — built on innovation, quality and commitment.
+                        </p>
+                        <div class="nvx-socials">
+                            <a href="https://www.facebook.com/nevixapharma" target="_blank" rel="noopener"
+                                aria-label="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/nevixapharma" target="_blank" rel="noopener"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://x.com/nevixapharma" target="_blank" rel="noopener"
+                                aria-label="X (Twitter)">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick links -->
+                    <div class="col-lg-2 col-md-6">
+                        <span class="nvx-eyebrow-mini">Quick Links</span>
+                        <ul class="nvx-footer-links">
+                            <li><a href="index.html"><i class="fa-solid fa-caret-right"></i>Home</a></li>
+                            <li><a href="about.html"><i class="fa-solid fa-caret-right"></i>About Us</a></li>
+                            <li><a href="products.html"><i class="fa-solid fa-caret-right"></i>Products</a></li>
+                            <li><a href="contact.html"><i class="fa-solid fa-caret-right"></i>Contact Us</a></li>
+                            <li><a href="faq.html"><i class="fa-solid fa-caret-right"></i>FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Divisions -->
+                    <div class="col-lg-2 col-md-6">
+                        <span class="nvx-eyebrow-mini">Our Divisions</span>
+                        <ul class="nvx-footer-links">
+                            <li><a href="derma_division.html"><i class="fa-solid fa-caret-right"></i>Derma</a></li>
+                            <li><a href="cosmo_division.html"><i class="fa-solid fa-caret-right"></i>Cosmo</a></li>
+                            <li><a href="pedia_division.html"><i class="fa-solid fa-caret-right"></i>Pedia</a></li>
+                            <li><a href="general_division.html"><i class="fa-solid fa-caret-right"></i>General</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-lg-4 col-md-6">
+                        <span class="nvx-eyebrow-mini">Get In Touch</span>
+                        <ul class="nvx-contact-list">
+                            <li>
+                                <div class="nvx-icon-badge"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <small>Phone</small>
+                                    <a href="tel:+919326095981">+91 93260 95981</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="nvx-icon-badge"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <small>Email</small>
+                                    <a href="mailto:info@nevixapharma.com">info@nevixapharma.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="nvx-icon-badge"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <small>Corporate Office</small>
+                                    <span>
+                                        Unit No. 32, Building No. B2, 5th Floor, Gami Industrial Park,
+                                        S Central Road, Mahape, Navi Mumbai - 400710, Maharashtra, India
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="nvx-footer-bottom">
+                    <p>Nevixa Pharmaceuticals &copy; 2026. All rights reserved.</p>
+                    <div class="nvx-footer-legal">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <span class="nvx-footer-legal-divider">&middot;</span>
+                        <a href="terms-conditions.html">Terms &amp; Conditions</a>
+                    </div>
+                    <span class="nvx-footer-tag">Derma &middot; Cosmo &middot; Pedia &middot; General</span>
+                </div>
+
+            </div>
+    </footer>

@@ -1,0 +1,438 @@
+/* ============================================================
+           NEVIXA CONTACT PAGE — supplemental styles (scoped, nvx- prefixed)
+           Sits alongside style.css / contact.css; only styles the new
+           content sections — navbar-container, footer-container and
+           whatsapp-circle-container keep using whatever style.css
+           already defines for them.
+        ============================================================ */
+:root {
+    --nvx-navy: #0B2545;
+    --nvx-navy-deep: #071A33;
+    --nvx-teal: #0F8B8D;
+    --nvx-teal-light: #E4F3F2;
+    --nvx-ice: #F5F8FA;
+    --nvx-ink: #101820;
+    --nvx-muted: #5B6673;
+    --nvx-line: #E2E8ED;
+    --nvx-font-display: 'Fraunces', serif;
+    --nvx-font-body: 'Inter', sans-serif;
+    --nvx-font-mono: 'JetBrains Mono', monospace;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.nvx-section {
+    font-family: var(--nvx-font-body);
+    color: var(--nvx-ink);
+}
+
+.nvx-section h1,
+.nvx-section h2,
+.nvx-section h3 {
+    font-family: var(--nvx-font-display);
+}
+
+.nvx-eyebrow {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--nvx-teal);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--nvx-teal);
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    background: var(--nvx-teal-light);
+}
+
+/* ---------- Breadcrumb ---------- */
+.nvx-breadcrumb {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 1.25rem;
+}
+
+.nvx-breadcrumb a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+}
+
+.nvx-breadcrumb a:hover {
+    color: #fff;
+}
+
+.nvx-breadcrumb i {
+    font-size: 0.62rem;
+    margin: 0 0.5rem;
+}
+
+/* ---------- Intro ---------- */
+.nvx-intro {
+    position: relative;
+    background: var(--nvx-navy-deep);
+    overflow: hidden;
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.10) 1.5px, transparent 0);
+    background-size: 26px 26px;
+    padding: 4.5rem 0 4rem;
+}
+
+.nvx-intro::after {
+    content: "";
+    position: absolute;
+    right: -110px;
+    top: -130px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(15, 139, 141, 0.32), transparent 70%);
+}
+
+.nvx-intro-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+}
+
+.nvx-intro h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: clamp(2rem, 3.6vw, 2.9rem);
+    line-height: 1.15;
+    margin: 1.1rem 0 1.1rem;
+}
+
+.nvx-intro h1 em {
+    color: var(--nvx-teal);
+    font-style: normal;
+}
+
+.nvx-intro p {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0;
+}
+
+/* ---------- Quick contact strip ---------- */
+.nvx-quick-contact {
+    background: #fff;
+    border-bottom: 1px solid var(--nvx-line);
+}
+
+.nvx-quick-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -2.25rem;
+    position: relative;
+    z-index: 2;
+}
+
+.nvx-quick-card {
+    background: #fff;
+    border: 1px solid var(--nvx-line);
+    border-radius: 14px;
+    padding: 1.5rem 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 20px 40px -28px rgba(11, 37, 69, 0.3);
+}
+
+.nvx-quick-icon {
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+    border-radius: 11px;
+    background: var(--nvx-teal-light);
+    color: var(--nvx-teal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.nvx-quick-card small {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--nvx-muted);
+    display: block;
+    margin-bottom: 0.15rem;
+}
+
+.nvx-quick-card a,
+.nvx-quick-card span {
+    color: var(--nvx-navy);
+    font-weight: 600;
+    font-size: 0.94rem;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.nvx-quick-card a:hover {
+    color: var(--nvx-teal);
+}
+
+/* ---------- Contact form section ---------- */
+.nvx-contact-section {
+    padding: 5.5rem 0 4rem;
+    background: #fff;
+}
+
+.nvx-contact-copy h2 {
+    font-weight: 600;
+    color: var(--nvx-navy);
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    margin: 0.9rem 0 1.1rem;
+}
+
+.nvx-contact-copy p {
+    color: var(--nvx-muted);
+    font-size: 1.02rem;
+    line-height: 1.75;
+    margin-bottom: 1.75rem;
+}
+
+.nvx-feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+}
+
+.nvx-feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--nvx-line);
+    color: var(--nvx-navy);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.nvx-feature-list li:last-child {
+    border-bottom: none;
+}
+
+.nvx-feature-list i {
+    color: var(--nvx-teal);
+    font-size: 1rem;
+}
+
+.nvx-office-card {
+    background: var(--nvx-ice);
+    border-radius: 14px;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.nvx-office-card i {
+    color: var(--nvx-teal);
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.nvx-office-card strong {
+    display: block;
+    color: var(--nvx-navy);
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+}
+
+.nvx-office-card span {
+    color: var(--nvx-muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* ---------- Form card ---------- */
+.nvx-form-card {
+    background: #fff;
+    border: 1px solid var(--nvx-line);
+    border-radius: 18px;
+    padding: 2.5rem;
+    box-shadow: 0 30px 60px -40px rgba(11, 37, 69, 0.35);
+    position: relative;
+}
+
+.nvx-form-card .form-control {
+    border: 1px solid var(--nvx-line);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    font-size: 0.94rem;
+    font-family: var(--nvx-font-body);
+    background: var(--nvx-ice);
+}
+
+.nvx-form-card .form-control:focus {
+    border-color: var(--nvx-teal);
+    box-shadow: 0 0 0 3px rgba(15, 139, 141, 0.15);
+    background: #fff;
+}
+
+.nvx-send-btn {
+    width: 100%;
+    background: var(--nvx-navy);
+    color: #fff;
+    border: none;
+    padding: 0.95rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.96rem;
+    font-family: var(--nvx-font-body);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.nvx-send-btn:hover {
+    background: var(--nvx-teal);
+    transform: translateY(-2px);
+}
+
+.nvx-success-popup {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    border-radius: 18px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.nvx-success-popup.show {
+    display: flex;
+}
+
+.nvx-success-popup i {
+    font-size: 2.75rem;
+    color: var(--nvx-teal);
+    margin-bottom: 1rem;
+}
+
+.nvx-success-popup h4 {
+    color: var(--nvx-navy);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.nvx-success-popup p {
+    color: var(--nvx-muted);
+    font-size: 0.94rem;
+    margin: 0;
+}
+
+.nvx-error-popup {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    border-radius: 18px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    z-index: 5;
+}
+
+.nvx-error-popup.show {
+    display: flex;
+}
+
+.nvx-error-popup i {
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
+
+.nvx-error-popup h4 {
+    color: var(--nvx-navy);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.nvx-error-popup p {
+    color: var(--nvx-muted);
+    font-size: 0.94rem;
+    max-width: 440px;
+    margin: 0;
+}
+
+/* ---------- Map section ---------- */
+.nvx-map-section {
+    padding: 5rem 0;
+    background: var(--nvx-ice);
+}
+
+.nvx-map-box {
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid var(--nvx-line);
+    box-shadow: 0 30px 60px -40px rgba(11, 37, 69, 0.3);
+}
+
+.nvx-map-box iframe {
+    width: 100%;
+    height: 420px;
+    border: 0;
+    display: block;
+}
+
+.nvx-map-action {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+}
+
+.nvx-map-btn {
+    background: #fff;
+    color: var(--nvx-navy);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.75rem 1.3rem;
+    border-radius: 999px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    box-shadow: 0 12px 24px -12px rgba(11, 37, 69, 0.4);
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nvx-map-btn:hover {
+    background: var(--nvx-teal);
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .nvx-quick-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .nvx-send-btn,
+    .nvx-map-btn {
+        transition: none;
+    }
+}

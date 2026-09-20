@@ -1,0 +1,91 @@
+<style>
+        .floating-contact {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 9999;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-pill {
+            background: #fff;
+            color: #333;
+            text-decoration: none;
+
+            padding: 16px 28px;
+            border-radius: 15px;
+
+            font-size: 18px;
+            font-weight: 500;
+
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+
+            margin-right: -10px;
+
+            transition: all 0.3s ease;
+        }
+
+        .contact-pill:hover {
+            transform: translateY(-2px);
+            color: #333;
+        }
+
+        .whatsapp-circle {
+            width: 78px;
+            height: 78px;
+
+            background: #25D366;
+            color: #fff;
+
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-decoration: none;
+
+            font-size: 42px;
+
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.35);
+
+            border: 6px solid #fff;
+
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-circle:hover {
+            transform: scale(1.08);
+            color: #fff;
+        }
+
+        @media(max-width:768px) {
+
+            .floating-contact {
+                right: 15px;
+                bottom: 20px;
+            }
+
+            .contact-pill {
+                font-size: 15px;
+                padding: 12px 18px;
+            }
+
+            .whatsapp-circle {
+                width: 65px;
+                height: 65px;
+                font-size: 34px;
+            }
+        }
+    </style>
+
+    <div class="floating-contact">
+        <a href="contact.html" class="contact-pill">
+            Contact us
+        </a>
+        <a href="https://wa.me/9326095981" class="whatsapp-circle" target="_blank" rel="noopener" aria-label="Chat with Nevixa Pharma on WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+    </div>

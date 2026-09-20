@@ -1,0 +1,100 @@
+# ==================================================
+# Nevixa Pharma - robots.txt
+# https://nevixapharma.com
+# ==================================================
+
+# Default policy
+User-agent: *
+Allow: /
+
+# ----------------------------
+# OpenAI
+# ----------------------------
+
+# Allow ChatGPT to fetch pages for user requests
+User-agent: ChatGPT-User
+Allow: /
+
+# Allow OpenAI Search
+User-agent: OAI-SearchBot
+Allow: /
+
+# Block OpenAI model training
+User-agent: GPTBot
+Disallow: /
+
+# ----------------------------
+# Google AI
+# ----------------------------
+
+# Prevent content from being used for AI training/features
+User-agent: Google-Extended
+Disallow: /
+
+# ----------------------------
+# Anthropic
+# ----------------------------
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# ----------------------------
+# Perplexity
+# ----------------------------
+
+User-agent: PerplexityBot
+Allow: /
+
+# ----------------------------
+# Common Crawl
+# ----------------------------
+
+User-agent: CCBot
+Disallow: /
+
+# ----------------------------
+# ByteDance
+# ----------------------------
+
+User-agent: Bytespider
+Disallow: /
+
+# ----------------------------
+# Amazon
+# ----------------------------
+
+User-agent: Amazonbot
+Disallow: /
+
+# ----------------------------
+# Apple
+# ----------------------------
+
+User-agent: Applebot
+Allow: /
+
+# ----------------------------
+# Meta
+# ----------------------------
+
+User-agent: FacebookBot
+Disallow: /
+
+# ----------------------------
+# Diffbot
+# ----------------------------
+
+User-agent: Diffbot
+Disallow: /
+
+# ==================================================
+# Sitemap
+# ==================================================
+
+Sitemap: https://nevixapharma.com/sitemap.xml
+
+# AI discovery
+LLMs: https://nevixapharma.com/llms.txt

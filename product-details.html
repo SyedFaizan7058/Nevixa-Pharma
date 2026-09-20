@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3P4DCTX6XL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3P4DCTX6XL');
+    </script>
+
+    <title>Product Details | Nevixa Pharma</title>
+    <meta name="description" content="Verified pharmaceutical formulation details, active composition, indications, and distribution enquiry for Nevixa Pharma products.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0b2a4a">
+    <link rel="canonical" href="https://nevixapharma.com/product-details.html">
+
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
+    <link rel="alternate" type="text/plain" href="llms.txt">
+    <link rel="alternate" type="text/plain" href="llms-full.txt">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Product Details | Nevixa Pharma">
+    <meta property="og:description" content="Verified pharmaceutical formulation details from Nevixa Pharma.">
+    <meta property="og:url" content="https://nevixapharma.com/product-details.html">
+    <meta property="og:image" content="https://nevixapharma.com/assets/images/logo.png">
+    <meta property="og:site_name" content="Nevixa Pharma">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Product Details | Nevixa Pharma">
+    <meta name="twitter:description" content="Verified pharmaceutical formulation details from Nevixa Pharma.">
+    <meta name="twitter:image" content="https://nevixapharma.com/assets/images/logo.png">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- Fonts: Fraunces (display) + Plus Jakarta Sans (body) + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/product-details.css">
+</head>
+<body>
+    <!-- Navbar Container -->
+    <div id="navbar-container"></div>
+
+    <!-- ============================================================
+         SKELETON LOADER — visible until JS populates content
+         ============================================================ -->
+    <div id="pdSkeleton" class="pd-skeleton" aria-hidden="true">
+        <div class="container-xl">
+            <div class="pd-skel-crumbs"><span></span><span></span><span></span></div>
+            <div class="pd-skel-hero">
+                <div class="pd-skel-img"></div>
+                <div class="pd-skel-info">
+                    <div class="pd-skel-row"><span class="pd-skel-pill"></span><span class="pd-skel-pill"></span></div>
+                    <span class="pd-skel-bar pd-skel-bar--lg"></span>
+                    <span class="pd-skel-bar pd-skel-bar--md"></span>
+                    <div class="pd-skel-specs"><span></span><span></span></div>
+                    <span class="pd-skel-bar pd-skel-bar--full"></span>
+                    <div class="pd-skel-row" style="margin-top:1.5rem"><span class="pd-skel-btn"></span><span class="pd-skel-btn pd-skel-btn--ghost"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================
+         MAIN CONTENT — hidden until JS loads product
+         ============================================================ -->
+    <main id="main-content" hidden>
+
+        <!-- ========== HERO ========== -->
+        <section class="pd-hero" id="pdHero">
+            <div class="container-xl">
+
+                <!-- Breadcrumb -->
+                <nav class="pd-breadcrumb detail-breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                    <a id="breadcrumbDivisionLink" href="products.html">Products</a>
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                    <span id="breadcrumbProduct" aria-current="page">Product</span>
+                </nav>
+
+                <!-- Two-column hero grid -->
+                <div id="productDetail" class="pd-hero-grid product-detail-card">
+
+                    <!-- LEFT: Image -->
+                    <div class="pd-image-col pd-stagger" style="--si:0">
+                        <div class="pd-image-frame product-detail-image">
+                            <img id="productImage" src="" alt="" decoding="async">
+                        </div>
+                        <div class="pd-gmp-badge">
+                            <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                            <span>WHO-GMP Quality Formulation</span>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: Info -->
+                    <div class="pd-info-col pd-stagger" style="--si:1">
+                        <div class="pd-badge-row">
+                            <span id="productDivision" class="pd-badge"></span>
+                            <span id="productFormBadge" class="pd-badge pd-badge--form"></span>
+                        </div>
+
+                        <h1 id="productName" class="pd-title">Product</h1>
+                        <p id="productTagline" class="pd-tagline"></p>
+
+                        <!-- Quick Specs -->
+                        <dl class="pd-specs">
+                            <div class="pd-spec">
+                                <dt>Dosage Form</dt>
+                                <dd id="productForm"></dd>
+                            </div>
+                            <div class="pd-spec">
+                                <dt>Pack Size</dt>
+                                <dd id="productPackSize"></dd>
+                            </div>
+                            <div class="pd-spec pd-spec--full">
+                                <dt>Active Composition</dt>
+                                <dd id="productComposition"></dd>
+                            </div>
+                        </dl>
+
+                        <!-- CTA: The two hero buttons side by side (Matching Image 3) -->
+                        <div class="pd-actions">
+                            <a href="products.html" class="pd-btn pd-btn--back">
+                                <i class="bi bi-arrow-left" aria-hidden="true"></i> Back to Products
+                            </a>
+                            <a id="whatsappProductBtn" href="#" target="_blank" rel="noopener"
+                               class="pd-btn pd-btn--wa-dark" aria-label="Enquire about this product on WhatsApp">
+                                <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                                <span id="whatsappBtnText">Enquire on WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== MODERN IN-PAGE NAV / MOBILE TABS ========== -->
+        <div class="pd-section-nav" id="pdSectionNav" aria-label="Product Sections">
+            <div class="container-xl">
+                <div class="pd-nav-scroll">
+                    <ul class="pd-nav-list" id="pdNavList" role="tablist" aria-label="Product Details Tabs">
+                        <li role="presentation">
+                            <button type="button" role="tab" id="tab-overview" class="pd-nav-link is-active"
+                                    aria-selected="true" aria-controls="section-overview" data-target="section-overview"
+                                    tabindex="0">Overview</button>
+                        </li>
+                        <li role="presentation" id="navItemUses">
+                            <button type="button" role="tab" id="tab-uses" class="pd-nav-link"
+                                    aria-selected="false" aria-controls="section-uses" data-target="section-uses"
+                                    tabindex="-1">Uses</button>
+                        </li>
+                        <li role="presentation" id="navItemHighlights">
+                            <button type="button" role="tab" id="tab-highlights" class="pd-nav-link"
+                                    aria-selected="false" aria-controls="section-highlights" data-target="section-highlights"
+                                    tabindex="-1">Highlights</button>
+                        </li>
+                        <li role="presentation">
+                            <button type="button" role="tab" id="tab-directions" class="pd-nav-link"
+                                    aria-selected="false" aria-controls="section-directions" data-target="section-directions"
+                                    tabindex="-1">Directions</button>
+                        </li>
+                        <li role="presentation">
+                            <button type="button" role="tab" id="tab-storage" class="pd-nav-link"
+                                    aria-selected="false" aria-controls="section-storage" data-target="section-storage"
+                                    tabindex="-1">Safety</button>
+                        </li>
+                        <li role="presentation" id="navItemRelated">
+                            <button type="button" role="tab" id="tab-related" class="pd-nav-link"
+                                    aria-selected="false" aria-controls="relatedProductsSection" data-target="relatedProductsSection"
+                                    tabindex="-1">Related Product</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== CONTENT AREA ========== -->
+        <div class="pd-content-area">
+            <div class="container-xl">
+                <div id="productStructuredContent" class="pd-content-wrapper">
+
+                    <!-- Section: Overview -->
+                    <section id="section-overview" class="pd-section pd-tabpanel pd-reveal is-active-tab"
+                             role="tabpanel" aria-labelledby="tab-overview" tabindex="0">
+                        <div class="pd-section-head" id="overviewCard">
+                            <i class="fa-solid fa-circle-info pd-section-ico" aria-hidden="true"></i>
+                            <h2>Product Overview</h2>
+                        </div>
+                        <p id="productDescription" class="pd-body"></p>
+                    </section>
+
+                    <hr class="pd-divider">
+
+                    <!-- Section: Uses / Indications (AEO Answer Box) -->
+                    <section id="section-uses" class="pd-section pd-tabpanel pd-reveal"
+                             role="tabpanel" aria-labelledby="tab-uses" tabindex="0">
+                        <div id="indicationsCard" hidden>
+                            <div class="pd-section-head pd-section-head--aeo">
+                                <i class="fa-solid fa-clipboard-check pd-section-ico" aria-hidden="true"></i>
+                                <h2 id="indicationsHeading">What is this product used for?</h2>
+                            </div>
+                            <p id="indicationsLead" class="pd-lead"></p>
+                            <div class="pd-indications" id="indicationsList"></div>
+                        </div>
+                    </section>
+
+                    <hr class="pd-divider" id="dividerUses">
+
+                    <!-- Section: Key Highlights -->
+                    <section id="section-highlights" class="pd-section pd-tabpanel pd-reveal"
+                             role="tabpanel" aria-labelledby="tab-highlights" tabindex="0">
+                        <div id="highlightsCard" hidden>
+                            <div class="pd-section-head">
+                                <i class="fa-solid fa-list-check pd-section-ico" aria-hidden="true"></i>
+                                <h2>Key Formulation Highlights</h2>
+                            </div>
+                            <ul class="pd-highlights" id="highlightsList"></ul>
+                        </div>
+                    </section>
+
+                    <hr class="pd-divider" id="dividerHighlights">
+
+                    <!-- Section: Directions -->
+                    <section id="section-directions" class="pd-section pd-tabpanel pd-reveal"
+                             role="tabpanel" aria-labelledby="tab-directions" tabindex="0">
+                        <div id="directionsCard">
+                            <button class="pd-accordion-btn" aria-expanded="true"
+                                    aria-controls="panelDirections" type="button">
+                                <i class="fa-solid fa-stethoscope pd-section-ico" aria-hidden="true"></i>
+                                <span>Directions for Administration</span>
+                                <i class="bi bi-chevron-down pd-chevron" aria-hidden="true"></i>
+                            </button>
+                            <div class="pd-accordion-body is-open" id="panelDirections" role="region">
+                                <p class="pd-body" id="directionsText">
+                                    Use strictly as directed by a qualified healthcare professional or registered medical practitioner. Follow dosage, frequency, and instructions indicated on the packaging.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <hr class="pd-divider">
+
+                    <!-- Section: Storage & Safety -->
+                    <section id="section-storage" class="pd-section pd-tabpanel pd-reveal"
+                             role="tabpanel" aria-labelledby="tab-storage" tabindex="0">
+                        <div id="storageSafetyCard">
+                            <button class="pd-accordion-btn" aria-expanded="true"
+                                    aria-controls="panelStorage" type="button">
+                                <i class="fa-solid fa-temperature-arrow-down pd-section-ico" aria-hidden="true"></i>
+                                <span>Storage &amp; Safety Guidance</span>
+                                <i class="bi bi-chevron-down pd-chevron" aria-hidden="true"></i>
+                            </button>
+                            <div class="pd-accordion-body is-open" id="panelStorage" role="region">
+                                <ul class="pd-safety">
+                                    <li>
+                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                                        Store in a cool, dry place protected from direct sunlight, excess heat, and moisture.
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                                        Keep out of reach of children.
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                                        Use under qualified medical advice and supervision. Do not exceed recommended dosage.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Section: Related Products (Active when Related Product tab is clicked on mobile, visible on desktop) -->
+                    <section id="relatedProductsSection" class="pd-section pd-tabpanel pd-related pd-reveal"
+                             role="tabpanel" aria-labelledby="tab-related" tabindex="0">
+                        <div class="pd-related-header related-products-head">
+                            <div>
+                                <span class="eyebrow">Related Formulations</span>
+                                <h2>More from <span id="relatedDivisionName"></span></h2>
+                            </div>
+                            <a id="relatedViewAllLink" href="products.html" class="pd-view-all">
+                                View all products <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div id="relatedProductsGrid" class="product-grid pd-related-grid"></div>
+                    </section>
+
+                    <!-- Medical & Dosage Advisory Note -->
+                    <div class="pd-advisory-note" role="note" aria-label="Medical Disclaimer">
+                        <i class="fa-solid fa-triangle-exclamation pd-advisory-icon" aria-hidden="true"></i>
+                        <div class="pd-advisory-text">
+                            <strong>Medical Notice &amp; Dosage Guidance:</strong>
+                            The formulation details provided on this page are strictly for educational and healthcare reference purposes. Do not self-medicate or alter dosage without clinical supervision. Always consult a registered medical practitioner or qualified physician for accurate medical evaluation, prescription, and individualized dosage guidance.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== FULL-WIDTH DISTRIBUTION BAND ========== -->
+        <section id="section-distribution" class="pd-distribution">
+            <div class="container-xl">
+                <div class="pd-distribution-inner pd-reveal" id="procurementCard">
+                    <div class="pd-distribution-text">
+                        <i class="fa-solid fa-truck-medical pd-distribution-ico" aria-hidden="true"></i>
+                        <h2>Distribution &amp; Procurement</h2>
+                        <p>
+                            Nevixa Pharma operates an ethical pharmaceutical marketing and distribution model.
+                            All formulations are supplied across India through authorized stockists, hospital supply
+                            networks, and licensed pharmacies. Nevixa Pharma does not sell directly via retail eCommerce.
+                        </p>
+                    </div>
+                    <div class="pd-distribution-cta">
+                        <span>Looking to stock, distribute, or procure for healthcare facilities?</span>
+                        <a id="whatsappProcurementBtn" href="#" target="_blank" rel="noopener"
+                           class="pd-btn pd-btn--wa">
+                            <i class="bi bi-whatsapp" aria-hidden="true"></i> Inquire for Stock
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== NOT FOUND ========== -->
+        <div id="productNotFound" class="pd-not-found" hidden>
+            <i class="bi bi-box-seam" aria-hidden="true"></i>
+            <h1>Product Not Found</h1>
+            <p>The requested product could not be found in the catalogue. It may have been relocated or updated.</p>
+            <a href="products.html" class="pd-btn pd-btn--solid">Browse All Products</a>
+        </div>
+
+    </main>
+
+    <!-- Footer & Floating WhatsApp (site-wide) -->
+    <div id="footer-container"></div>
+    <div id="whatsapp-circle-container"></div>
+
+    <!-- Scripts (same load order preserved) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/load_common_files.js"></script>
+    <script src="assets/js/products-data.js"></script>
+    <script src="assets/js/product-details.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="assets/js/aos-init.js"></script>
+</body>
+</html>

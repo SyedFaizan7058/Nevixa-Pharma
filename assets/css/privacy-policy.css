@@ -1,0 +1,226 @@
+:root {
+    --nvx-navy: #0B2545;
+    --nvx-navy-deep: #071A33;
+    --nvx-teal: #0F8B8D;
+    --nvx-teal-light: #E4F3F2;
+    --nvx-ice: #F5F8FA;
+    --nvx-ink: #101820;
+    --nvx-muted: #5B6673;
+    --nvx-line: #E2E8ED;
+    --nvx-font-display: 'Fraunces', serif;
+    --nvx-font-body: 'Inter', sans-serif;
+    --nvx-font-mono: 'JetBrains Mono', monospace;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.nvx-legal {
+    font-family: var(--nvx-font-body);
+    color: var(--nvx-ink);
+}
+
+.nvx-breadcrumb {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 1.25rem;
+}
+
+.nvx-breadcrumb a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+}
+
+.nvx-breadcrumb a:hover {
+    color: #fff;
+}
+
+.nvx-breadcrumb i {
+    font-size: 0.62rem;
+    margin: 0 0.5rem;
+}
+
+.nvx-intro {
+    position: relative;
+    background: var(--nvx-navy-deep);
+    overflow: hidden;
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.10) 1.5px, transparent 0);
+    background-size: 26px 26px;
+    padding: 4rem 0 3.5rem;
+}
+
+.nvx-intro::after {
+    content: "";
+    position: absolute;
+    right: -110px;
+    top: -130px;
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(15, 139, 141, 0.3), transparent 70%);
+}
+
+.nvx-intro-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}
+
+.nvx-intro h1 {
+    font-family: var(--nvx-font-display);
+    color: #fff;
+    font-weight: 600;
+    font-size: clamp(1.9rem, 3.4vw, 2.6rem);
+    margin: 1.1rem 0 0.75rem;
+}
+
+.nvx-intro p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.nvx-eyebrow {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--nvx-teal);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--nvx-teal);
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(15, 139, 141, 0.12);
+}
+
+.nvx-legal-body {
+    padding: 4.5rem 0 5rem;
+    background: #fff;
+}
+
+.nvx-toc {
+    background: var(--nvx-ice);
+    border: 1px solid var(--nvx-line);
+    border-radius: 14px;
+    padding: 1.75rem;
+    position: sticky;
+    top: 6rem;
+}
+
+.nvx-toc h2 {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--nvx-teal);
+    margin-bottom: 1rem;
+}
+
+.nvx-toc ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: toc;
+}
+
+.nvx-toc li {
+    counter-increment: toc;
+    margin-bottom: 0.65rem;
+}
+
+.nvx-toc a {
+    color: var(--nvx-navy);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nvx-toc a::before {
+    content: counter(toc) ".";
+    color: var(--nvx-teal);
+    font-family: var(--nvx-font-mono);
+    min-width: 1.1rem;
+}
+
+.nvx-toc a:hover {
+    color: var(--nvx-teal);
+}
+
+.nvx-article h2 {
+    font-family: var(--nvx-font-display);
+    color: var(--nvx-navy);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 2.75rem 0 1rem;
+    scroll-margin-top: 6rem;
+}
+
+.nvx-article h2:first-of-type {
+    margin-top: 0;
+}
+
+.nvx-article p {
+    color: var(--nvx-muted);
+    font-size: 0.98rem;
+    line-height: 1.8;
+    margin-bottom: 1.1rem;
+}
+
+.nvx-article ul {
+    margin: 0 0 1.1rem;
+    padding-left: 1.3rem;
+}
+
+.nvx-article li {
+    color: var(--nvx-muted);
+    font-size: 0.98rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.nvx-article a {
+    color: var(--nvx-teal);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nvx-article a:hover {
+    text-decoration: underline;
+}
+
+.nvx-article strong {
+    color: var(--nvx-navy);
+}
+
+.nvx-note {
+    background: var(--nvx-teal-light);
+    border-left: 3px solid var(--nvx-teal);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: var(--nvx-navy);
+    line-height: 1.65;
+}
+
+.nvx-updated {
+    font-family: var(--nvx-font-mono);
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 0.75rem;
+}
+
+@media (max-width: 991px) {
+    .nvx-toc {
+        position: static;
+        margin-bottom: 2.5rem;
+    }
+}

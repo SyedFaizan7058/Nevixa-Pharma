@@ -1,0 +1,460 @@
+ /* ============================================================
+           NEVIXA ABOUT PAGE — supplemental styles (scoped, nvx- prefixed)
+           These sit alongside style.css / about.css and only style the
+           new content sections below — your navbar-container,
+           footer-container and whatsapp-circle-container keep using
+           whatever style.css already defines for them.
+        ============================================================ */
+ :root {
+     --nvx-navy: #0B2545;
+     --nvx-navy-deep: #071A33;
+     --nvx-teal: #0F8B8D;
+     --nvx-teal-light: #E4F3F2;
+     --nvx-ice: #F5F8FA;
+     --nvx-ink: #101820;
+     --nvx-muted: #5B6673;
+     --nvx-line: #E2E8ED;
+     --nvx-font-display: 'Fraunces', serif;
+     --nvx-font-body: 'Inter', sans-serif;
+     --nvx-font-mono: 'JetBrains Mono', monospace;
+ }
+
+ html,
+ body {
+     overflow-x: hidden;
+     width: 100%;
+ }
+
+ .nvx-section {
+     font-family: var(--nvx-font-body);
+     color: var(--nvx-ink);
+ }
+
+ .nvx-section h1,
+ .nvx-section h2,
+ .nvx-section h3 {
+     font-family: var(--nvx-font-display);
+ }
+
+ .nvx-eyebrow {
+     font-family: var(--nvx-font-mono);
+     font-size: 0.72rem;
+     letter-spacing: 0.14em;
+     text-transform: uppercase;
+     color: var(--nvx-teal);
+     display: inline-flex;
+     align-items: center;
+     gap: 0.5rem;
+     border: 1px solid var(--nvx-teal);
+     padding: 0.3rem 0.75rem;
+     border-radius: 999px;
+     background: var(--nvx-teal-light);
+ }
+
+ /* ---------- Breadcrumb ---------- */
+ .nvx-breadcrumb {
+     font-family: var(--nvx-font-mono);
+     font-size: 0.78rem;
+     color: rgba(255, 255, 255, 0.65);
+     margin-bottom: 1.25rem;
+ }
+
+ .nvx-breadcrumb a {
+     color: rgba(255, 255, 255, 0.85);
+     text-decoration: none;
+ }
+
+ .nvx-breadcrumb a:hover {
+     color: #fff;
+ }
+
+ .nvx-breadcrumb i {
+     font-size: 0.62rem;
+     margin: 0 0.5rem;
+ }
+
+ /* ---------- Intro ---------- */
+ .nvx-intro {
+     position: relative;
+     background: var(--nvx-navy-deep);
+     overflow: hidden;
+     background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.10) 1.5px, transparent 0);
+     background-size: 26px 26px;
+     padding: 4.5rem 0 4rem;
+ }
+
+ .nvx-intro::after {
+     content: "";
+     position: absolute;
+     left: -100px;
+     bottom: -140px;
+     width: 380px;
+     height: 380px;
+     border-radius: 50%;
+     background: radial-gradient(circle, rgba(15, 139, 141, 0.32), transparent 70%);
+ }
+
+ .nvx-intro-inner {
+     position: relative;
+     z-index: 1;
+     max-width: 720px;
+ }
+
+ .nvx-intro h1 {
+     color: #fff;
+     font-weight: 600;
+     font-size: clamp(2rem, 3.6vw, 2.9rem);
+     line-height: 1.15;
+     margin: 1.1rem 0 1.1rem;
+ }
+
+ .nvx-intro h1 em {
+     color: var(--nvx-teal);
+     font-style: normal;
+ }
+
+ .nvx-intro p {
+     color: rgba(255, 255, 255, 0.78);
+     font-size: 1.05rem;
+     line-height: 1.7;
+     max-width: 600px;
+     margin: 0;
+ }
+
+ /* ---------- Section head ---------- */
+ .nvx-section-head {
+     max-width: 660px;
+     margin: 0 auto 3rem;
+     text-align: center;
+ }
+
+ .nvx-section-head h2 {
+     font-weight: 600;
+     color: var(--nvx-navy);
+     font-size: clamp(1.7rem, 3vw, 2.35rem);
+     margin: 0.9rem 0 0.85rem;
+ }
+
+ .nvx-section-head p {
+     color: var(--nvx-muted);
+     font-size: 1.02rem;
+     line-height: 1.65;
+ }
+
+ /* ---------- Story section ---------- */
+ .nvx-story {
+     padding: 5.5rem 0;
+     background: #fff;
+ }
+
+ .nvx-story-copy h2 {
+     font-weight: 600;
+     color: var(--nvx-navy);
+     font-size: clamp(1.6rem, 3vw, 2.2rem);
+     margin: 0.9rem 0 1.1rem;
+ }
+
+ .nvx-story-copy p {
+     color: var(--nvx-muted);
+     font-size: 1.02rem;
+     line-height: 1.8;
+     margin-bottom: 1.1rem;
+ }
+
+ .nvx-story-visual {
+     border-radius: 18px;
+     padding: 2.75rem 2rem;
+     background: linear-gradient(150deg, var(--nvx-navy) 0%, var(--nvx-navy-deep) 100%);
+     color: #fff;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .nvx-story-visual::before {
+     content: "";
+     position: absolute;
+     top: -60px;
+     right: -60px;
+     width: 220px;
+     height: 220px;
+     border-radius: 50%;
+     background: radial-gradient(circle, rgba(15, 139, 141, 0.4), transparent 70%);
+ }
+
+ .nvx-story-stat-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 1.75rem;
+     position: relative;
+     z-index: 1;
+ }
+
+ .nvx-story-stat h3 {
+     font-size: 2.1rem;
+     font-weight: 600;
+     margin: 0 0 0.2rem;
+ }
+
+ .nvx-story-stat p {
+     font-family: var(--nvx-font-mono);
+     font-size: 0.7rem;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+     color: rgba(255, 255, 255, 0.65);
+     margin: 0;
+ }
+
+ .nvx-story-visual .nvx-tag-line {
+     font-family: var(--nvx-font-mono);
+     font-size: 0.78rem;
+     color: rgba(255, 255, 255, 0.7);
+     border-top: 1px solid rgba(255, 255, 255, 0.16);
+     padding-top: 1.25rem;
+     margin-top: 1.75rem;
+     position: relative;
+     z-index: 1;
+ }
+
+ /* ---------- Pillars: Innovation / Quality / Commitment ---------- */
+ .nvx-pillars {
+     background: var(--nvx-ice);
+     padding: 5.5rem 0;
+ }
+
+ .nvx-pillar-card {
+     background: #fff;
+     border: 1px solid var(--nvx-line);
+     border-radius: 14px;
+     padding: 2.25rem 1.9rem;
+     height: 100%;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .nvx-pillar-card::before {
+     content: attr(data-index);
+     position: absolute;
+     top: -0.3rem;
+     right: 1rem;
+     font-family: var(--nvx-font-display);
+     font-size: 4.5rem;
+     font-weight: 600;
+     color: var(--nvx-teal-light);
+     line-height: 1;
+     z-index: 0;
+ }
+
+ .nvx-pillar-card>* {
+     position: relative;
+     z-index: 1;
+ }
+
+ .nvx-pillar-icon {
+     width: 52px;
+     height: 52px;
+     border-radius: 12px;
+     background: var(--nvx-navy);
+     color: var(--nvx-teal);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.25rem;
+     margin-bottom: 1.4rem;
+ }
+
+ .nvx-pillar-card h3 {
+     font-size: 1.2rem;
+     font-weight: 600;
+     color: var(--nvx-navy);
+     margin-bottom: 0.7rem;
+ }
+
+ .nvx-pillar-card p {
+     color: var(--nvx-muted);
+     font-size: 0.94rem;
+     line-height: 1.65;
+     margin: 0;
+ }
+
+ /* ---------- Vision & Mission ---------- */
+ .nvx-vm {
+     padding: 5.5rem 0;
+     background: #fff;
+ }
+
+ .nvx-vm-card {
+     border: 1px solid var(--nvx-line);
+     border-radius: 14px;
+     padding: 2.5rem;
+     height: 100%;
+     background: var(--nvx-navy);
+     color: #fff;
+ }
+
+ .nvx-vm-card.nvx-vm-alt {
+     background: var(--nvx-teal);
+ }
+
+ .nvx-vm-icon {
+     width: 48px;
+     height: 48px;
+     border-radius: 50%;
+     background: rgba(255, 255, 255, 0.14);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.15rem;
+     margin-bottom: 1.5rem;
+ }
+
+ .nvx-vm-card h3 {
+     font-weight: 600;
+     font-size: 1.3rem;
+     margin-bottom: 0.9rem;
+ }
+
+ .nvx-vm-card p {
+     color: rgba(255, 255, 255, 0.85);
+     font-size: 0.98rem;
+     line-height: 1.75;
+     margin: 0;
+ }
+
+ /* ---------- How we work ---------- */
+ .nvx-approach {
+     padding: 5.5rem 0;
+     background: var(--nvx-ice);
+ }
+
+ .nvx-approach-list {
+     max-width: 820px;
+     margin: 0 auto;
+ }
+
+ .nvx-approach-item {
+     display: flex;
+     gap: 1.5rem;
+     padding: 1.75rem 0;
+     border-top: 1px solid var(--nvx-line);
+ }
+
+ .nvx-approach-item:last-child {
+     border-bottom: 1px solid var(--nvx-line);
+ }
+
+ .nvx-approach-num {
+     font-family: var(--nvx-font-mono);
+     font-size: 0.85rem;
+     color: var(--nvx-teal);
+     min-width: 2.5rem;
+     padding-top: 0.15rem;
+ }
+
+ .nvx-approach-item h3 {
+     font-size: 1.05rem;
+     font-weight: 600;
+     color: var(--nvx-navy);
+     margin: 0 0 0.4rem;
+ }
+
+ .nvx-approach-item p {
+     color: var(--nvx-muted);
+     font-size: 0.94rem;
+     line-height: 1.65;
+     margin: 0;
+ }
+
+ /* ---------- Why choose ---------- */
+ .nvx-why {
+     padding: 5.5rem 0;
+     background: #fff;
+ }
+
+ .nvx-why-card {
+     background: #fff;
+     border: 1px solid var(--nvx-line);
+     border-radius: 14px;
+     padding: 2rem 1.75rem;
+     height: 100%;
+     transition: transform 0.25s ease, box-shadow 0.25s ease;
+ }
+
+ .nvx-why-card:hover {
+     transform: translateY(-6px);
+     box-shadow: 0 18px 40px -20px rgba(11, 37, 69, 0.25);
+ }
+
+ .nvx-why-icon {
+     width: 50px;
+     height: 50px;
+     border-radius: 10px;
+     background: var(--nvx-teal-light);
+     color: var(--nvx-teal);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.1rem;
+     margin-bottom: 1.25rem;
+ }
+
+ .nvx-why-card h3 {
+     font-size: 1.05rem;
+     font-weight: 600;
+     color: var(--nvx-navy);
+     margin-bottom: 0.55rem;
+ }
+
+ .nvx-why-card p {
+     color: var(--nvx-muted);
+     font-size: 0.92rem;
+     line-height: 1.6;
+     margin: 0;
+ }
+
+ /* ---------- CTA band ---------- */
+ .nvx-cta-band {
+     background: var(--nvx-teal);
+     padding: 3.25rem 0;
+ }
+
+ .nvx-cta-band h2 {
+     color: #fff;
+     font-weight: 600;
+     font-size: clamp(1.4rem, 2.6vw, 1.9rem);
+     margin-bottom: 0.4rem;
+ }
+
+ .nvx-cta-band p {
+     color: rgba(255, 255, 255, 0.85);
+     margin-bottom: 0;
+ }
+
+ .nvx-btn-white {
+     background: #fff;
+     color: var(--nvx-navy);
+     font-weight: 600;
+     padding: 0.85rem 1.6rem;
+     border-radius: 8px;
+     text-decoration: none;
+     display: inline-flex;
+     align-items: center;
+     gap: 0.5rem;
+     transition: transform 0.2s ease;
+ }
+
+ .nvx-btn-white:hover {
+     transform: translateY(-2px);
+     color: var(--nvx-navy);
+ }
+
+ @media (prefers-reduced-motion: reduce) {
+
+     .nvx-why-card,
+     .nvx-btn-white {
+         transition: none;
+     }
+ }

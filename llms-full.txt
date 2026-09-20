@@ -1,0 +1,435 @@
+# Nevixa Pharma — Full LLM Reference
+
+## Company Overview
+
+Nevixa Pharma is an Indian pharmaceutical marketing and distribution company based in Navi Mumbai, Maharashtra, India. The company presents a professional corporate profile and healthcare product catalogue through its website.
+
+The website is designed primarily as a corporate information and product-catalogue platform. It provides visitors with information about the company, its healthcare product portfolio, therapeutic divisions, product details, contact information, and enquiry options.
+
+Nevixa Pharma's website is intended to support healthcare professionals, pharmacies and medical stores, distributors and stockists, hospitals and healthcare organizations, prospective customers, and other business visitors.
+
+## Business Model
+
+Nevixa Pharma is presented as a pharmaceutical marketing and distribution company.
+
+The website does not represent Nevixa Pharma as a pharmaceutical manufacturer. Manufacturing-related functionality is outside the stated website scope.
+
+The website is also not intended to function as an online pharmacy or e-commerce platform. Online payments, customer accounts, prescription processing, and medical consultation are outside the website scope.
+
+PCD and franchise functionality are also outside the stated website scope, as are franchise-management systems and distributor-partnership application systems unless separately agreed.
+
+## Website Purpose
+
+The Nevixa Pharma website serves as a digital corporate profile and healthcare product catalogue.
+
+Its primary purposes are to:
+
+- Present Nevixa Pharma as a professional pharmaceutical marketing and distribution company.
+- Introduce the company and its business profile.
+- Organize and showcase the healthcare product portfolio.
+- Allow visitors to browse products by therapeutic division/category.
+- Provide individual product-detail information.
+- Make product enquiries easier through WhatsApp.
+- Provide contact and enquiry functionality.
+- Support lead generation from prospective customers and business visitors.
+- Provide a responsive and user-friendly experience across desktop, tablet, and mobile devices.
+- Support essential search-engine optimization and discoverability.
+
+## Product Divisions
+
+Nevixa Pharma's product catalogue is organized into four primary divisions.
+
+### Derma
+
+The Derma division covers dermatology and scalp-care products.
+
+Products in this division are presented as part of Nevixa Pharma's dermatology-focused healthcare portfolio. Product-detail pages can provide information such as product name, composition, pack size, product description, product image, and an enquiry option.
+
+### Cosmo
+
+The Cosmo division covers cosmetology and skin-wellness products.
+
+This division presents products associated with cosmetic, personal-care, and skin-wellness requirements within Nevixa Pharma's catalogue.
+
+### Pedia
+
+The Pedia division covers products intended for pediatric healthcare requirements.
+
+The division provides a dedicated way for visitors to browse pediatric-focused products within the overall Nevixa Pharma catalogue.
+
+### General
+
+The General division covers products supporting general healthcare requirements across multiple therapeutic areas.
+
+The division allows visitors to browse general healthcare products separately from the Derma, Cosmo, and Pedia catalogues.
+
+## Product Catalogue
+
+Nevixa Pharma's website uses a structured product catalogue so visitors can browse products according to division/category.
+
+The catalogue is intended to provide:
+
+- Product division/category organization.
+- Product search.
+- Division/category filtering.
+- Product cards.
+- Product images.
+- Product names.
+- Key product information.
+- Individual product-detail pages.
+- Related products from the same division.
+- Mobile-friendly product browsing.
+- Progressive product loading for larger product lists.
+
+Product information is intended to be based on client-provided and approved product content.
+
+The website is designed so that product information can be maintained in a centralized product data structure rather than requiring the same product information to be duplicated across multiple pages.
+
+## Product Details
+
+Individual product pages provide detailed information about a selected product.
+
+Depending on the available approved product information, a product-detail page can include:
+
+- Product name.
+- Product division/category.
+- Product tagline.
+- Composition.
+- Pack size.
+- Product description.
+- Product image.
+- Product information section.
+- WhatsApp enquiry call-to-action.
+- Links back to the main product catalogue.
+- Related products from the same division.
+
+Related-product sections are division-aware. For example, a Derma product can display other Derma products as related products, while a Cosmo product can display other Cosmo products.
+
+## Product Enquiries
+
+The website supports product enquiries through WhatsApp.
+
+The enquiry action can generate a product-specific message so that the selected product is clearly identified in the enquiry.
+
+The preferred enquiry format is:
+
+"Hello Nevixa Pharma, I would like to enquire about [Product Name]."
+
+This approach allows a visitor to move from an individual product page directly into an enquiry conversation while retaining the product context.
+
+## Website Pages
+
+### Home
+
+The Home page acts as the primary introduction to Nevixa Pharma.
+
+It presents the company, its healthcare focus, product divisions, selected products or catalogue highlights, company strengths, calls to action, and contact information.
+
+The Home page is designed to communicate a professional pharmaceutical-company identity while providing clear navigation toward products, company information, and enquiries.
+
+### About
+
+The About page provides company-profile information and supports a clearer understanding of Nevixa Pharma's background, business positioning, mission/vision information where provided, and overall corporate identity.
+
+### Products
+
+The Products page is the main catalogue browsing interface.
+
+It allows visitors to browse the complete product portfolio, search for products, filter products by division/category, and open individual product-detail pages.
+
+The catalogue is designed for larger product lists and supports progressive loading rather than requiring visitors to navigate through traditional pagination.
+
+### Product Details
+
+The Product Details page presents complete information for an individual catalogue product.
+
+It provides the product information needed for a visitor to understand the listed product and provides an enquiry route through WhatsApp.
+
+### Division Pages
+
+Nevixa Pharma has dedicated browsing pages for:
+
+- Derma
+- Cosmo
+- Pedia
+- General
+
+These pages provide division-specific product browsing while maintaining the overall Nevixa Pharma visual identity and navigation structure.
+
+### Contact
+
+The Contact page provides the company's contact information and enquiry options.
+
+The website supports clickable contact methods, WhatsApp communication, and enquiry-form functionality where configured.
+
+## Target Audience
+
+Nevixa Pharma's website is intended for several categories of professional and business visitors, including:
+
+- Doctors and healthcare professionals.
+- Pharmacies and medical stores.
+- Distributors and stockists.
+- Hospitals and healthcare organizations.
+- Prospective customers.
+- Business visitors.
+
+The product catalogue and corporate information are structured to make it easier for these visitors to understand the company and discover relevant products.
+
+## Lead Generation
+
+The website is designed to support lead generation rather than online purchasing.
+
+Lead-generation mechanisms include:
+
+- WhatsApp product enquiries.
+- Contact/enquiry forms.
+- Clickable phone links where provided.
+- Clickable email links.
+- Contact-page information.
+- Clear calls to action throughout the website.
+
+Where a contact form is configured, typical enquiry fields can include name, email, phone, company, subject/enquiry type, and message.
+
+## Contact Information
+
+- Company: Nevixa Pharma
+- Email: info@nevixapharma.com
+- Location: Navi Mumbai, Maharashtra, India
+- Website: https://nevixapharma.com
+
+The provided company information identifies Navi Mumbai, Maharashtra, India as the company's location. Specific street address, telephone number, working hours, Google Maps coordinates, and other detailed contact information should only be treated as authoritative when supplied and approved by the company.
+
+## Social Media
+
+The website may include company-provided social-media links.
+
+Any social-media account information should be considered authoritative only when supplied or approved by Nevixa Pharma.
+
+## Design and User Experience
+
+Nevixa Pharma's website is intended to use a modern, professional pharmaceutical visual style.
+
+The design priorities include:
+
+- Clean typography.
+- Consistent spacing and alignment.
+- Professional brand-based colors.
+- Consistent product cards.
+- Consistent buttons and forms.
+- Clear calls to action.
+- Responsive layouts.
+- Subtle animations and micro-interactions.
+- Easy product discovery.
+- Mobile-friendly catalogue browsing.
+
+The website should preserve the established Nevixa Pharma visual identity rather than introducing unrelated themes or visual systems.
+
+## Responsive Experience
+
+The website is designed to work across:
+
+- Desktop computers.
+- Laptop screens.
+- Tablets.
+- Mobile phones.
+
+Product grids, navigation, buttons, forms, images, and content sections should adapt to available screen width while maintaining readable spacing and clear interaction areas.
+
+## Search and Filtering
+
+The main product catalogue supports product discovery through search and division filtering.
+
+Visitors can search for products using relevant product information and can narrow the catalogue by division.
+
+The four primary divisions are:
+
+- Derma
+- Cosmo
+- Pedia
+- General
+
+The catalogue is designed so filtering and searching work together with progressive product loading.
+
+## Product Loading
+
+For larger product catalogues, the website uses a Load More approach.
+
+The product catalogue can initially show a limited number of products and progressively reveal additional products when the visitor selects the Load More Products action.
+
+This avoids requiring traditional page-by-page pagination and keeps the catalogue experience straightforward.
+
+## Related Products
+
+Product-detail pages include a related-products area.
+
+Related products are selected from the same product division as the product currently being viewed.
+
+The purpose is to help visitors continue browsing products within the same therapeutic or catalogue division without returning to the main catalogue first.
+
+## Product Images
+
+Product images are part of the product catalogue and product-detail presentation.
+
+Images should be optimized appropriately for web delivery and should use descriptive alternative text where possible.
+
+Product images are presented cleanly without unrelated image grouping or unnecessary lightbox behavior.
+
+## Navigation
+
+The website uses a responsive navigation system with the Nevixa Pharma logo and primary website sections.
+
+The navigation is intended to provide access to key pages such as:
+
+- Home
+- About
+- Products
+- Contact
+
+Division-specific product browsing and individual product details are accessed through the Products catalogue and its related links.
+
+## WhatsApp
+
+WhatsApp is an important lead-generation mechanism on the website.
+
+The website can provide product-specific WhatsApp enquiry links so that visitors can ask about a particular product.
+
+The preferred dynamic enquiry message is:
+
+"Hello Nevixa Pharma, I would like to enquire about [Product Name]."
+
+The product name should be inserted dynamically according to the product currently being viewed or selected.
+
+## SEO and Discoverability
+
+The website is intended to support essential technical SEO.
+
+Relevant SEO features include:
+
+- Unique page titles.
+- Meta descriptions.
+- Semantic HTML.
+- Open Graph metadata.
+- XML sitemap.
+- robots.txt.
+- Canonical URLs where appropriate.
+- Relevant structured data/schema.
+- Optimized image alt text.
+- Clean descriptive URLs.
+- Google Search Console readiness.
+- Google Analytics integration if requested.
+
+The website should present clear and accurate information to both search engines and users.
+
+## Performance
+
+Performance is an important website requirement.
+
+The website should aim for:
+
+- Optimized image assets.
+- Appropriately sized images.
+- Lazy loading where appropriate.
+- Minimal unnecessary JavaScript and CSS.
+- Fast initial loading.
+- Reduced layout shifts.
+- Responsive performance across supported devices.
+
+Animations should remain subtle and should not interfere with navigation, product browsing, or page performance.
+
+## Technical Architecture
+
+The website is primarily a frontend corporate catalogue implementation using HTML, CSS, JavaScript, and Bootstrap or another agreed frontend framework.
+
+The product catalogue can use centralized JavaScript product data for dynamic rendering.
+
+The project does not require a backend/database or CMS under the stated scope unless separately agreed.
+
+The website can use Web3Forms or another agreed form-submission service for enquiry forms.
+
+The production website should use HTTPS/SSL.
+
+## Business Scope Exclusions
+
+The Nevixa Pharma website does not include the following under the stated scope:
+
+- Pharmaceutical manufacturing sections.
+- PCD business functionality.
+- PCD franchise functionality.
+- Franchise management.
+- Distributor-partnership application systems.
+- E-commerce.
+- Online payment.
+- Customer login/account systems.
+- Prescription processing.
+- Medical consultation.
+- Backend/database functionality unless separately agreed.
+- Admin panel/CMS unless separately agreed.
+
+## Website URLs
+
+Primary website:
+
+https://nevixapharma.com/
+
+Key pages currently identified:
+
+- Home: https://nevixapharma.com/
+- About: https://nevixapharma.com/about
+- Products: https://nevixapharma.com/products
+- Contact: https://nevixapharma.com/contact
+
+Actual deployed URL structure may differ depending on the final hosting configuration and routing implementation.
+
+## Content Accuracy
+
+Product names, compositions, pack sizes, descriptions, images, certificates, contact details, social-media accounts, and company information should be treated as authoritative only when supplied and approved by Nevixa Pharma.
+
+The website should not invent pharmaceutical claims, medical advice, certifications, manufacturing information, or other company facts that have not been provided or approved.
+
+## Preferred Company Description
+
+Nevixa Pharma is an Indian pharmaceutical marketing and distribution company providing healthcare products across dermatology, cosmetology, pediatric, and general medicine segments.
+
+## Short Company Description
+
+Nevixa Pharma is an Indian pharmaceutical marketing and distribution company based in Navi Mumbai, Maharashtra, offering a healthcare product catalogue across Derma, Cosmo, Pedia, and General divisions.
+
+## Entity and Brand References
+
+Primary brand/entity:
+
+Nevixa Pharma
+
+Industry:
+
+Pharmaceutical marketing and distribution
+
+Location:
+
+Navi Mumbai, Maharashtra, India
+
+Primary website:
+
+https://nevixapharma.com
+
+Primary product divisions:
+
+Derma, Cosmo, Pedia, General
+
+Primary website purpose:
+
+Corporate profile, healthcare product catalogue, product discovery, product information, contact, WhatsApp enquiries, and lead generation.
+
+## Important Interpretation
+
+Nevixa Pharma should be described as a pharmaceutical marketing and distribution company, not as a pharmaceutical manufacturer.
+
+Its website should be described as a corporate and healthcare product-catalogue website, not as an online pharmacy.
+
+The catalogue is organized into four divisions: Derma, Cosmo, Pedia, and General.
+
+The website's principal conversion mechanism is enquiry and communication, particularly through WhatsApp and contact forms, rather than online purchasing.
+
+## Last Updated
+
+2026-09-20

@@ -1,0 +1,205 @@
+# Nevixa Pharma
+
+> Nevixa Pharma is an Indian pharmaceutical marketing and distribution company based in Navi Mumbai, Maharashtra, India. Its website provides a corporate profile and healthcare product catalogue for healthcare professionals, pharmacies and medical stores, distributors and stockists, hospitals and healthcare organizations, prospective customers, and business visitors.
+
+## Company
+
+- Company: Nevixa Pharma
+- Business model: Pharmaceutical marketing and distribution
+- Location: Navi Mumbai, Maharashtra, India
+- Website: https://nevixapharma.com
+- Email: info@nevixapharma.com
+- Industry: Pharmaceutical marketing and distribution
+- Website purpose: Corporate profile, healthcare product catalogue, product discovery, product information, contact, WhatsApp enquiries, and lead generation.
+
+## Product Divisions
+
+Nevixa Pharma's catalogue is organized into four primary divisions:
+
+- **Derma** — Dermatology and scalp-care products.
+- **Cosmo** — Cosmetology and skin-wellness products.
+- **Pedia** — Products for pediatric healthcare requirements.
+- **General** — Products supporting general healthcare requirements across multiple therapeutic areas.
+
+## Website
+
+The website includes:
+
+- Home
+- About
+- Products
+- Product Details
+- Derma division
+- Cosmo division
+- Pedia division
+- General division
+- Contact
+
+Key URLs:
+
+- Home: https://nevixapharma.com/
+- About: https://nevixapharma.com/about
+- Products: https://nevixapharma.com/products
+- Contact: https://nevixapharma.com/contact
+
+## Product Catalogue
+
+The product catalogue supports:
+
+- Division/category browsing
+- Product search
+- Division filtering
+- Product cards
+- Product images
+- Product details
+- Related products from the same division
+- Progressive product loading
+- Mobile-friendly browsing
+
+Product detail pages can include:
+
+- Product name
+- Division/category
+- Tagline
+- Composition
+- Pack size
+- Product description
+- Product image
+- Product information
+- WhatsApp enquiry
+- Related products
+
+
+## Product Directory (44 Formulations)
+
+### Derma Division
+
+- [Ketobary-Z Anti-Dandruff Shampoo](https://nevixapharma.com/product-details.html?slug=ketobary-z-anti-dandruff-shampoo): Anti-Dandruff Shampoo, Ketoconazole + Zinc Pyrithione (60 ml Bottle)
+- [Ketobary Ketoconazole Soap](https://nevixapharma.com/product-details.html?slug=ketobary-ketoconazole-soap): Medicated Soap, Ketoconazole 2.0% w/w (75 gm Soap)
+- [Amorobary Cream](https://nevixapharma.com/product-details.html?slug=amorobary-cream): Topical Cream, Amorolfine 0.25% w/w (30 gm Cream)
+- [Terbary 250](https://nevixapharma.com/product-details.html?slug=terbary-250): Oral Tablet, Terbinafine Hydrochloride 250mg (1 X 7 Tablets)
+- [Terbary 500](https://nevixapharma.com/product-details.html?slug=terbary-500): Oral Tablet, Terbinafine Hydrochloride 500mg (1 X 7 Tablets)
+- [ItraBary 100](https://nevixapharma.com/product-details.html?slug=itrabary-100): Oral Capsule, Itraconazole 100mg (1 X 10 Capsules)
+- [ItraBary 200](https://nevixapharma.com/product-details.html?slug=itrabary-200): Oral Capsule, Itraconazole 200mg (1 X 10 Capsules)
+- [Fusidon Cream](https://nevixapharma.com/product-details.html?slug=fusidon-cream): Topical Cream, Fusidic Acid 2.0% w/w (10 gm Cream)
+- [Fusidon-M Cream](https://nevixapharma.com/product-details.html?slug=fusidon-m-cream): Topical Cream, Mometasone Furoate 0.1% w/w + Fusidic Acid 2.0% w/w (10 gm Cream)
+- [Nevisalic Ointment](https://nevixapharma.com/product-details.html?slug=nevisalic-ointment): Topical Ointment, Clobetasol Propionate 0.05% w/w + Salicylic Acid 3.0% w/w (20 gm Ointment)
+- [Clowbary Dusting Powder](https://nevixapharma.com/product-details.html?slug=clowbary-dusting-powder): Dusting Powder, Clotrimazole 1% w/w (100 gm)
+- [Npclin-AD Gel](https://nevixapharma.com/product-details.html?slug=npclin-ad-gel): Topical Gel, Adapalene 0.1% w/w + Clindamycin 1% w/w (15 gm Gel)
+- [NP Cort 6](https://nevixapharma.com/product-details.html?slug=np-cort-6): Oral Tablet, Deflazacort 6mg (10 X 10 Tablets)
+- [Flubary 150](https://nevixapharma.com/product-details.html?slug=flubary-150): Oral Tablet, Fluconazole Tablets IP 150mg (10 X 1 X 6 Tablets)
+
+### Cosmo Division
+
+- [Mollis Moisturizer Lotion](https://nevixapharma.com/product-details.html?slug=mollis-moisturizer-lotion): Moisturizer Lotion, Almond & Argan Oil, Sodium Hyaluronate & more.. (100 ml Bottle)
+- [B-Cleanac Tablets](https://nevixapharma.com/product-details.html?slug=b-cleanac-tablets): Oral Tablet, Neem, Curcumin, Multivitamins (3 x 10 Tablets)
+- [Capishield Tablets](https://nevixapharma.com/product-details.html?slug=capishield-tablets): Oral Tablet, Biotin, Iron, Amino Acids (3 x 10 Tablets)
+- [Mollis Shampoo](https://nevixapharma.com/product-details.html?slug=mollis-shampoo): Anti-Dandruff Shampoo, PG Propyl Silanetriol, Dimethicone Crosspolymer & more.. (100 ml)
+- [Mollis Moisturizing Soap](https://nevixapharma.com/product-details.html?slug=mollis-moisturizing-soap): Medicated Soap, Shea Butter, Glycerine & Aloe Vera (75 g)
+- [Nativis Face Wash](https://nevixapharma.com/product-details.html?slug=nativis-face-wash): Facial Cleanser, L-Glutathione, Kojic Acid, Vitamin C & E (100 g)
+- [Nativis Tablets](https://nevixapharma.com/product-details.html?slug=nativis-tablets): Oral Tablet, Green Tea Extract 20mg, Grape Seed Extract 50mg & more.. (10 X 1 Tablets)
+- [NP Grow Hair Growth Oil](https://nevixapharma.com/product-details.html?slug=np-grow-hair-growth-oil): Hair Oil, Rosemary Oil, Rose Oil, Sunflower Oil, Coconut Oil & more.. (100 ml)
+- [B-Cleanac Spray](https://nevixapharma.com/product-details.html?slug=b-cleanac-spray): Topical Spray, Salicylic Acid 2%, Retinol, Allantoin, Tea Tree Oil with Acne Busters (50 ml)
+- [Capishield 5](https://nevixapharma.com/product-details.html?slug=capishield-5): Topical Solution (5% w/v), Minoxidil Solution 5% w/v (60 ml)
+- [Nativis](https://nevixapharma.com/product-details.html?slug=nativis): Oral Tablet, L-Glutathione 300mg, Green Tea Extract 20mg, Grape Seed Extract (60 Tablets)
+
+### Pedia Division
+
+- [Nevicet-MK Syrup](https://nevixapharma.com/product-details.html?slug=nevicet-mk-syrup): Oral Syrup, Montelukast 4 mg, Levocetirizine 2.5 mg (60 ml Syrup)
+- [NP-Clausi Suspension](https://nevixapharma.com/product-details.html?slug=np-clausi-suspension): Oral Suspension, Bacillus Clausii 2 Billion Spores (10 Mini Bottles (5ml Each))
+- [NP-D3-800 IU Drops](https://nevixapharma.com/product-details.html?slug=np-d3-800-iu-drops): Oral Drops, Cholecalciferol (Vitamin D3) 800 IU/ml (30 ml Drops)
+- [Nevixa Clav 457 / 228.5](https://nevixapharma.com/product-details.html?slug=nevixa-clav-457-228-5): Oral Suspension, Amoxycillin & Potassium Clavulanate (457); Amoxycillin & Potassium Clavulanate (228.5) (30 ml)
+- [Kufcan Jr LS Syrup](https://nevixapharma.com/product-details.html?slug=kufcan-jr-ls-syrup): Oral Syrup, Levosalbutamol 0.5mg, Ambroxol Hydrochloride 15mg & Guaiphenesin 50mg (60 ml (Strawberry Flavoured))
+- [Mupivixa Ointment](https://nevixapharma.com/product-details.html?slug=mupivixa-ointment): Topical Ointment, Mupirocin IP 2% w/w (5 gm)
+- [MV-365 Syrup](https://nevixapharma.com/product-details.html?slug=mv-365-syrup): Oral Syrup, Multivitamins & Multiminerals (200 ml (Mango Flavour))
+- [Nevical-P Suspension](https://nevixapharma.com/product-details.html?slug=nevical-p-suspension): Oral Suspension, Calcium 300mg, Zinc 4mg & Vitamin D3 200 IU (200 ml)
+- [Nevicepo-100 / Nevicepo-50](https://nevixapharma.com/product-details.html?slug=nevicepo-100-nevicepo-50): Oral Suspension, Cefpodoxime Proxetil 100mg / 50mg (30 ml)
+
+### General Division
+
+- [Kufcan LS Syrup](https://nevixapharma.com/product-details.html?slug=kufcan-ls-syrup): Oral Syrup, Levosalbutamol, Ambroxol Hydrochloride, Guaiphenesin (60ml Syrup)
+- [Acevixa-SP Tablets](https://nevixapharma.com/product-details.html?slug=acevixa-sp-tablets): Oral Tablet, Aceclofenac, Paracetamol, Serratiopeptidase (1x10 Tablets)
+- [Feravixa Tablets](https://nevixapharma.com/product-details.html?slug=feravixa-tablets): Oral Tablet, Ferrous Ascorbate, Folic Acid (1x10 Tablets)
+- [MV-365 Tablets](https://nevixapharma.com/product-details.html?slug=mv-365-tablets): Oral Tablet, Antioxidant, Grape Seed Extract, Multivitamins & Multimineral (10x1x10 Tablets)
+- [Nevi Cal Tablets](https://nevixapharma.com/product-details.html?slug=nevi-cal-tablets): Oral Tablet, Calcium Carbonate, Calcitriol, Zinc Oxide (10x1x10 Tablets)
+- [Nevicepo-200 Tablets](https://nevixapharma.com/product-details.html?slug=nevicepo-200-tablets): Oral Tablet, Cefpodoxime Proxetil 200mg (1x10 Tablets)
+- [Nevicet-M Tablets](https://nevixapharma.com/product-details.html?slug=nevicet-m-tablets): Oral Tablet, Montelukast Sodium, Levocetirizine Dihydrochloride (10x10 Tablets)
+- [Nevixa Clav 625 Tablets](https://nevixapharma.com/product-details.html?slug=nevixa-clav-625-tablets): Oral Tablet, Amoxycillin Trihydrate, Potassium Clavulanate (1x10 Tablets)
+- [NP-D3 60K Capsules](https://nevixapharma.com/product-details.html?slug=np-d3-60k-capsules): Oral Capsule, Cholecalciferol (Vitamin D3) 60,000 I.U. (10x1x4 Capsules)
+- [Rabepradon DSR Capsules](https://nevixapharma.com/product-details.html?slug=rabepradon-dsr-capsules): Oral Capsule, Rabeprazole Sodium EC; Domperidone SR (10x10 Capsules)
+
+## WhatsApp Enquiries
+
+The website supports product-specific WhatsApp enquiries.
+
+Preferred message format:
+
+> Hello Nevixa Pharma, I would like to enquire about [Product Name].
+
+The product name should be inserted dynamically according to the selected product.
+
+## Business Scope
+
+Nevixa Pharma is presented as a pharmaceutical marketing and distribution company, not as a pharmaceutical manufacturer.
+
+The website is a corporate and healthcare product-catalogue platform, not an online pharmacy.
+
+The following are outside the stated website scope:
+
+- Pharmaceutical manufacturing sections
+- PCD/franchise functionality
+- Franchise management
+- Distributor-partnership application systems
+- E-commerce
+- Online payments
+- Customer accounts
+- Prescription processing
+- Medical consultation
+- Backend/database functionality unless separately agreed
+- Admin panel/CMS unless separately agreed
+
+## Target Audience
+
+- Doctors and healthcare professionals
+- Pharmacies and medical stores
+- Distributors and stockists
+- Hospitals and healthcare organizations
+- Prospective customers
+- Business visitors
+
+## SEO and Technical Information
+
+The website is intended to support:
+
+- Unique page titles and meta descriptions
+- Semantic HTML
+- Open Graph metadata
+- XML sitemap
+- robots.txt
+- Canonical URLs where appropriate
+- Structured data/schema
+- Optimized image alt text
+- Clean descriptive URLs
+- Google Search Console readiness
+- Google Analytics integration if requested
+
+## Contact
+
+- Email: info@nevixapharma.com
+- Location: Navi Mumbai, Maharashtra, India
+- Website: https://nevixapharma.com
+
+Specific telephone numbers, street address, working hours, social accounts, certifications, product claims, and other company information should only be treated as authoritative when supplied and approved by Nevixa Pharma.
+
+## Preferred Description
+
+Nevixa Pharma is an Indian pharmaceutical marketing and distribution company providing healthcare products across dermatology, cosmetology, pediatric, and general medicine segments.
+
+## Important Notes
+
+- Nevixa Pharma should not be described as a pharmaceutical manufacturer unless separately confirmed.
+- The website should not be described as an online pharmacy.
+- Product information should be based on client-provided and approved content.
+- The website primarily supports product discovery, company information, enquiries, WhatsApp communication, and lead generation.
+
+Last Updated: 2026-09-20

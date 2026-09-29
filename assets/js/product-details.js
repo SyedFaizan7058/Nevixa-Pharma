@@ -293,12 +293,11 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     function activateTab(targetId, updateHash = false) {
-        const isMobile = window.innerWidth < 768;
-
         // Find button corresponding to targetId
         const activeBtn = tabButtons.find(btn => btn.getAttribute("data-target") === targetId);
         if (!activeBtn) return;
 
+        // Update ARIA state on all tab buttons
         tabButtons.forEach(btn => {
             const isMatch = btn === activeBtn;
             btn.classList.toggle("is-active", isMatch);
@@ -311,34 +310,25 @@ document.addEventListener("DOMContentLoaded", function () {
             activeBtn.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
         } catch (_) {}
 
-        if (isMobile) {
-            tabPanels.forEach(panel => {
-                const isMatch = panel.id === targetId;
-                panel.classList.toggle("is-active-tab", isMatch);
-                if (isMatch) {
-                    panel.focus({ preventScroll: true });
-                }
-            });
+        // On all screen sizes: scroll to target section when user clicks a tab
+        if (updateHash) {
+            const targetEl = document.getElementById(targetId);
+            if (targetEl) {
+                const isMobile = window.innerWidth < 768;
+                const headerOffset = isMobile ? 120 : 150;
+                const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
+                window.scrollTo({
+                    top: elementPosition - headerOffset,
+                    behavior: "smooth"
+                });
 
-            if (updateHash) {
-                // Find primary hash key
+                // Update hash (use canonical key)
                 for (const [key, val] of Object.entries(tabTargetMap)) {
                     if (val === targetId && key !== 'storage' && key !== 'related-product' && key !== 'related-products') {
                         history.replaceState(null, '', '#' + key);
                         break;
                     }
                 }
-            }
-        } else {
-            // On desktop/tablet, smooth scroll to section
-            const targetEl = document.getElementById(targetId);
-            if (targetEl && updateHash) {
-                const headerOffset = 150;
-                const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
-                window.scrollTo({
-                    top: elementPosition - headerOffset,
-                    behavior: "smooth"
-                });
             }
         }
     }
@@ -402,20 +392,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener("hashchange", applyHashOrInitial);
 
-    // On window resize across 768px, sync view
-    let wasMobile = window.innerWidth < 768;
-    window.addEventListener("resize", function () {
-        const isMobile = window.innerWidth < 768;
-        if (isMobile !== wasMobile) {
-            wasMobile = isMobile;
-            if (isMobile) {
-                applyHashOrInitial();
-            } else {
-                tabPanels.forEach(p => p.classList.remove("is-active-tab"));
-            }
-        }
-    }, { passive: true });
-
     // Desktop scroll-spy
     const sectionsToSpy = [
         document.getElementById("section-overview"),
@@ -426,9 +402,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("relatedProductsSection")
     ].filter(Boolean);
 
-    function updateDesktopScrollSpy() {
-        if (window.innerWidth < 768) return;
-
+    function updateScrollSpy() {
         const scrollPosition = window.scrollY + 180;
         let currentSectionId = "";
 
@@ -454,7 +428,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    window.addEventListener("scroll", updateDesktopScrollSpy, { passive: true });
+    window.addEventListener("scroll", updateScrollSpy, { passive: true });
 
     // 13. Reveal observer
     const revealEls = document.querySelectorAll(".pd-reveal");

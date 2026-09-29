@@ -1010,18 +1010,28 @@
     to   { opacity: 1; transform: translateY(0); }
 }
 
+/* Remove focus ring on tab panels (triggered by tabindex on page load) */
+.pd-tabpanel:focus,
+.pd-tabpanel:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 /* ================================================================
-   DESKTOP & TABLET LAYOUT (>= 768px): All Sections Visible
+   ALL SCREENS: All Sections Always Visible (no tab-switching)
+   ================================================================ */
+.pd-tabpanel {
+    display: block !important;
+    opacity: 1 !important;
+}
+.pd-divider {
+    display: block !important;
+}
+
+/* ================================================================
+   DESKTOP & TABLET LAYOUT (>= 768px)
    ================================================================ */
 @media (min-width: 768px) {
-    /* All tab panels are visible simultaneously on desktop/tablet */
-    .pd-tabpanel {
-        display: block !important;
-        opacity: 1 !important;
-    }
-    .pd-divider {
-        display: block !important;
-    }
     .pd-content-wrapper > .pd-related {
         margin-top: 2.5rem;
         padding-top: 2rem;
@@ -1073,11 +1083,18 @@
     }
     .pd-image-frame {
         min-height: unset;
-        height: clamp(180px, 45vw, 220px);
-        padding: 0.75rem;
+        height: clamp(200px, 50vw, 260px);
+        padding: 0.5rem;
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        animation: none;
     }
     .pd-image-frame img {
         max-height: 100%;
+        width: auto;
+        max-width: 100%;
     }
     .pd-gmp-badge {
         padding: 0.4rem 0.75rem;
@@ -1164,22 +1181,12 @@
         font-size: 1.1rem;
     }
 
-    /* Mobile Tab Switching */
+    /* Mobile content spacing */
     .pd-content-area {
         padding-block: 1.2rem 2rem;
     }
     .pd-content-wrapper {
         padding: 1.15rem;
-    }
-    .pd-tabpanel:not(.is-active-tab) {
-        display: none !important;
-    }
-    .pd-tabpanel.is-active-tab {
-        display: block !important;
-        animation: pdTabFade 0.25s ease;
-    }
-    .pd-divider {
-        display: none !important;
     }
 
     /* Body text on mobile */
